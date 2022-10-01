@@ -1,4 +1,4 @@
-# Template for React + TypeScript + Webpack
+# Template for React + TypeScript + Sass + Webpack
 
 Based on the following guides
 - https://reactjs.org/docs/static-type-checking.html#typescript
