@@ -1,7 +1,7 @@
 {
-  "name": "02_front",
+  "name": "react-typescript-webpack",
   "version": "1.0.0",
-  "description": "Goal: Create a simple web app that list users information from an API with ReactJs (~2h)",
+  "description": "Application Template using React with TypeScript and Webpack.",
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.config.js",
