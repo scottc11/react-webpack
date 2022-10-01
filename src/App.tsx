@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
     return (
-        <div>Hellow Webpack React</div>
+        <div>Hello Webpack + TypeScript + React</div>
     )
 }
 
