@@ -1,11 +1,16 @@
 import React from 'react';
+import TextTile, { TileColor } from './components/TextTile/TextTile';
 
 function App() {
     return (
         <div className='app'>
-            <h1>
-                Hello Webpack + TypeScript + React
-            </h1>
+            <div className='tile-container'>
+                <TextTile text={'Webpack'} backgroundColor={TileColor.BLUE} />
+                <TextTile text={'+'} backgroundColor={TileColor.GREEN} />
+                <TextTile text={'TypeScript'} backgroundColor={TileColor.ORANGE} />
+                <TextTile text={'+'} backgroundColor={TileColor.WHITE} />
+                <TextTile text={'React'} backgroundColor={TileColor.YELLOW} />
+            </div>
         </div>
     )
 }

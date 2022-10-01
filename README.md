@@ -6,4 +6,6 @@ Based on the following guides
 
 
 ## Reference
+### [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 ### [React/TypeScript Cheat Sheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
+### [FlexBox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)

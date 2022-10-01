@@ -1,9 +1,4 @@
-/* Palette */
-$cg-blue: #227c9dff;
-$tiffany-blue: #17c3b2ff;
-$maximum-yellow-red: #ffcb77ff;
-$floral-white: #fef9efff;
-$light-coral: #fe6d73ff;
+@import "./variables.scss";
 
 $app-background-color: $cg-blue;
 
@@ -15,4 +10,34 @@ body, h1, h2, h3, h4, h5, h6 {
     background-color: $app-background-color;
     width: 100vw;
     height: 100vh;
+}
+
+.tile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+$blue: $cg-blue;
+$green: $tiffany-blue;
+$yellow: $maximum-yellow-red;
+$orange: $light-coral;
+$white: $floral-white;
+
+.bg {
+    &--blue {
+        background-color: $blue;
+    }
+    &--green {
+        background-color: $green;
+    }
+    &--yellow {
+        background-color: $yellow;
+    }
+    &--orange {
+        background-color: $orange;
+    }
+    &--white {
+        background-color: $white;
+    }
 }
